@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/itemImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        />
+
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/itemImage"
+        android:textColor="#343434"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/itemCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/itemImage"
+        android:layout_below="@+id/itemName"
+        android:textColor="#343434"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/itemPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/itemImage"
+        android:layout_below="@+id/itemCount"
+        android:textColor="#343434"
+        android:textSize="14sp" />
+
+
+
+</RelativeLayout><!-- From: file:/Users/pghanta/Documents/voyager_agent_trunk_code/ShoppingCart/app/src/main/res/layout/child_item.xml -->

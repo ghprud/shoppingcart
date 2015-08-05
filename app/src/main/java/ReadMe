@@ -1,0 +1,14 @@
+
+Write an Android or iOS application that displays the shopping cart data provided by the 2 JSON files.!
+
+!!!Requirements!!!
+• Items in the cart are grouped by their shop!
+• Items are shown with images, name, count and price! !
+
+!!!Bonus Points!!!
+• Use an Expandable List View or Expandable UITableView!
+• Allow user to edit quantity and remember it when the app is reopened !
+• We love Test Driven Development, implement some tests with your code! !
+
+!!!Directions!!!
+Package the source code into a zip file. It should be build-able with the latest mobile IDEs (Android Studio and Xcode). For Android provide the APK file. !
